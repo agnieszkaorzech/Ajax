@@ -1,0 +1,75 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-image:url(1.jpg);
+   color: #000033;
+  font-family: 'Lato', sans-serif;
+}
+.panel-title{
+   color: #000033;
+   font-family: 'Lato', sans-serif;
+   font-weight:bold;
+}
+.panel-body{
+padding-left:130px;
+
+ color: #000033;
+   font-family: 'Lato', sans-serif;
+   font-weight:bold;
+}
+.col-sm-4{
+ color: #000033;
+   font-family: 'Lato', sans-serif;
+   font-weight:bold;
+     
+   }
+ #button_main{
+ color: #000033;
+   font-family: 'Lato', sans-serif;
+   font-weight:bold;
+  background-color:#66FFFF;
+ }
+ #button_crear_sting{
+ margin-right:30px;
+ }
+ #button_get_sting1{
+ margin-right:30px;
+ }
+ #button_editar_sting{
+ margin-right:30px;
+ }
+ #button_eliminar_sting{
+ margin-right:30px;
+ }
+ #repos_result{
+ color:#DEDEDE;
+ background-color:#494949;}
+ 
+#button_get_repos{
+    width: 100px;
+    height: 30px;
+}
+#button_main{
+    width: 100px;
+    height: 30px;
+}
+#button_to_create{
+    width: 100px;
+    height: 30px;
+}
+#button_del_repo{
+    width: 100px;
+    height: 30px;
+}
+#button_get_repo{
+    width: 100px;
+    height: 30px;
+}
+#button_get_repo_to_edit{
+    width: 100px;
+    height: 30px;
+}
+#button_edit_repo{
+    width: 100px;
+    height: 30px;
+}

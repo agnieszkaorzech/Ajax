@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+	<meta charset="utf-8">
+    <title>My Githup Repository - AJAX applications using jQuery</title>
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">          
+	<link href="style.css" rel="stylesheet">
+	
+    <body>
+    <div class="jumbotron">
+      <div class="container">
+       <h1>Welcome to Githup Repositories</h1>
+      
+      </div>
+    </div>
+	
+	<div class="container">
+		<div class="row">
+            <div class="col-sm-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Create new Repository</h3>
+                    </div>
+                <div class="panel-body">
+                    <div class="input-group input-group-sm">
+                        Name: <input class="form-control" id="repository_name_to_create" type="text"> <br/>
+                    </div>
+					<div class="input-group input-group-sm">
+                        Descripcion:<input class="form-control" id="description_to_create" type="text"><br/>
+                    </div>
+					<span id="create_result"></span>
+					<button type="button"  id="button_to_create">Create</button>
+                </div>
+            </div>
+				<button type="button"  id="button_main" onClick="location.href='main.html'">MAIN PAGE</button><span id="result"></span>
+			</div>
+			<div class="col-sm-4">
+				<button type="button" id="button_get_repos">LIST</button><span id="repos_result"></span>
+			</div>
+        </div>
+	</div>
+    
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Event and AJAX functions -->
+    <script type="text/javascript" src="exercise.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+</html>
